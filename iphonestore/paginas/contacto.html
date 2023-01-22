@@ -62,23 +62,23 @@
                     <form class="row g-3">
                         <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4">
+                            <input type="email" class="form-control" id="inputEmail4" required>
                         </div>
                         <div class="col-md-6">
                             <label for="inputPassword4" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="inputPassword4">
+                            <input type="password" class="form-control" id="inputPassword4" required>
                         </div>
                         <div class="col-12">
                             <label for="inputAddress" class="form-label">Direccion</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="ej:9 de julio 1234">
+                            <input type="text" class="form-control" id="inputAddress" placeholder="ej:9 de julio 1234" required>
                         </div>
                         <div class="col-12">
                             <label for="inputAddress2" class="form-label">Telefono</label>
-                            <input type="text" class="form-control" id="inputAddress2" placeholder="(351...)">
+                            <input type="text" class="form-control" id="inputAddress2" placeholder="(351...)" required>
                         </div>
                         <div class="col-md-6">
                             <label for="inputCity" class="form-label">Ciudad</label>
-                            <input type="text" class="form-control" id="inputCity">
+                            <input type="text" class="form-control" id="inputCity" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputState" class="form-label">Provincia</label>
@@ -89,11 +89,11 @@
                         </div>
                         <div class="col-md-2">
                             <label for="inputZip" class="form-label">Codigo postal</label>
-                            <input type="text" class="form-control" id="inputZip" onkeypress="capturarEnter(event)">
+                            <input type="text" class="form-control" id="inputZip" onkeypress="capturarEnter(event)" required>
                         </div>
                         <div class="col-12">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <input class="form-check-input" type="checkbox" id="gridCheck" >
                                 <label class="form-check-label" for="gridCheck">
                                     Check me out
                                 </label>
